@@ -17,7 +17,7 @@ for i, line in enumerate(lines):
   if(score > 0):
     sum1 += pow(2, score-1)
     j = 0
-    while j < score and j+1 < len(lines):
+    while j < score:
       j += 1
       cards[j+i] += cards[i]
 
